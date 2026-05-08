@@ -3,21 +3,57 @@ url: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/
 name: Lepton AI
 x-type: company
 description: >-
-  Lepton AI is a cloud-native AI/ML platform offering serverless inference, fine-tuning, and AI workflows. Hosts open-source LLMs and provides model deployment via Photon.
+  Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud
+  Lepton. It is a fully managed AI platform that connects developers to global GPU compute
+  across a federated network of cloud providers, with managed endpoints, dev sessions,
+  distributed training, and batch processing.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - ML
   - Inference
   - Cloud
-  - OpenAI Compatible
+  - GPU
+  - NVIDIA
+  - DGX Cloud
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: lepton-ai:dgx-cloud-lepton
+    name: NVIDIA DGX Cloud Lepton API
+    description: >-
+      Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible
+      chat surface), dev sessions with managed GPUs, distributed training jobs, and batch
+      processing. Endpoints are deployed at unique URLs per workload via the Lepton
+      dashboard at dashboard.dgxc-lepton.nvidia.com.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
+    baseURL: https://dashboard.dgxc-lepton.nvidia.com
+    tags:
+      - AI
+      - ML
+      - Endpoints
+      - Training
+      - Batch
+      - GPU
+      - OpenAI Compatible
+    properties:
+      - type: Documentation
+        url: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
+      - type: ProductPage
+        url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
+      - type: Examples
+        url: https://docs.nvidia.com/dgx-cloud/lepton/examples/
+      - type: AcquisitionNote
+        url: 'NVIDIA acquired Lepton AI; lepton.ai now redirects to NVIDIA DGX Cloud Lepton.'
 common:
   - type: Website
+    url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
+  - type: LegacyWebsite
     url: https://www.lepton.ai/
+  - type: Documentation
+    url: https://docs.nvidia.com/dgx-cloud/lepton/
   - type: Plans
     url: plans/lepton-ai-plans-pricing.yml
   - type: RateLimits
