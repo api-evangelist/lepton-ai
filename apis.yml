@@ -1,7 +1,7 @@
 aid: lepton-ai
 url: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/apis.yml
 name: Lepton AI
-x-type: company
+kind: company
 description: >-
   Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud
   Lepton. It is a fully managed AI platform that connects developers to global GPU compute
