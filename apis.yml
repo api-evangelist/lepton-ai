@@ -48,6 +48,10 @@ apis:
       - type: AcquisitionNote
         url: 'NVIDIA acquired Lepton AI; lepton.ai now redirects to NVIDIA DGX Cloud Lepton.'
 common:
+  - type: GitHubOrganization
+    url: https://github.com/leptonai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lepton-ai
   - type: Website
     url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
   - type: LegacyWebsite
