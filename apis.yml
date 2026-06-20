@@ -7,7 +7,7 @@ description: >-
   Lepton. It is a fully managed AI platform that connects developers to global GPU compute
   across a federated network of cloud providers, with managed endpoints, dev sessions,
   distributed training, and batch processing.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - ML
@@ -27,7 +27,7 @@ apis:
       chat surface), dev sessions with managed GPUs, distributed training jobs, and batch
       processing. Endpoints are deployed at unique URLs per workload via the Lepton
       dashboard at dashboard.dgxc-lepton.nvidia.com.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
     baseURL: https://dashboard.dgxc-lepton.nvidia.com
     tags:
