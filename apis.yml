@@ -57,8 +57,6 @@ apis:
         url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
       - type: Examples
         url: https://docs.nvidia.com/dgx-cloud/lepton/examples/
-      - type: AcquisitionNote
-        url: 'NVIDIA acquired Lepton AI; lepton.ai now redirects to NVIDIA DGX Cloud Lepton.'
 common:
   - type: DomainSecurity
     url: security/lepton-ai-domain-security.yml
