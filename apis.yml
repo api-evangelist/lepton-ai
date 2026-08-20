@@ -21,6 +21,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
 tags:
+  - Artificial Intelligence
+  - ML
+  - Inference
+  - Cloud
+  - GPU
+  - NVIDIA
+  - DGX Cloud
+tags_raw:
   - AI
   - ML
   - Inference
@@ -43,6 +51,13 @@ apis:
     humanURL: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
     baseURL: https://dashboard.dgxc-lepton.nvidia.com
     tags:
+      - Artificial Intelligence
+      - ML
+      - Training
+      - Batch
+      - GPU
+      - OpenAI-Compatible
+    tags_raw:
       - AI
       - ML
       - Endpoints
