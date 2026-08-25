@@ -2,11 +2,9 @@ aid: lepton-ai
 url: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/apis.yml
 name: Lepton AI
 kind: company
-description: >-
-  Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud
-  Lepton. It is a fully managed AI platform that connects developers to global GPU compute
-  across a federated network of cloud providers, with managed endpoints, dev sessions,
-  distributed training, and batch processing.
+description: Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud Lepton. It
+  is a fully managed AI platform that connects developers to global GPU compute across a federated network of cloud
+  providers, with managed endpoints, dev sessions, distributed training, and batch processing.
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -21,76 +19,83 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
 tags:
-  - Artificial Intelligence
-  - ML
-  - Inference
-  - Cloud
-  - GPU
-  - NVIDIA
-  - DGX Cloud
+- Artificial Intelligence
+- ML
+- Inference
+- Cloud
+- GPU
+- NVIDIA
+- DGX Cloud
 tags_raw:
-  - AI
-  - ML
-  - Inference
-  - Cloud
-  - GPU
-  - NVIDIA
-  - DGX Cloud
+- AI
+- ML
+- Inference
+- Cloud
+- GPU
+- NVIDIA
+- DGX Cloud
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-08-21'
 specificationVersion: '0.23'
 apis:
-  - aid: lepton-ai:dgx-cloud-lepton
-    name: NVIDIA DGX Cloud Lepton API
-    description: >-
-      Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible
-      chat surface), dev sessions with managed GPUs, distributed training jobs, and batch
-      processing. Endpoints are deployed at unique URLs per workload via the Lepton
-      dashboard at dashboard.dgxc-lepton.nvidia.com.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
-    baseURL: https://dashboard.dgxc-lepton.nvidia.com
-    tags:
-      - Artificial Intelligence
-      - ML
-      - Training
-      - Batch
-      - GPU
-      - OpenAI-Compatible
-    tags_raw:
-      - AI
-      - ML
-      - Endpoints
-      - Training
-      - Batch
-      - GPU
-      - OpenAI Compatible
-    properties:
-      - type: Documentation
-        url: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
-      - type: ProductPage
-        url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
-      - type: Examples
-        url: https://docs.nvidia.com/dgx-cloud/lepton/examples/
-common:
-  - type: DomainSecurity
-    url: security/lepton-ai-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/leptonai
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/lepton-ai
-  - type: Website
-    url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
-  - type: LegacyWebsite
-    url: https://www.lepton.ai/
+- aid: lepton-ai:dgx-cloud-lepton
+  name: NVIDIA DGX Cloud Lepton API
+  description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface),
+    dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deployed at unique
+    URLs per workload via the Lepton dashboard at dashboard.dgxc-lepton.nvidia.com.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
+  baseURL: https://dashboard.dgxc-lepton.nvidia.com
+  tags:
+  - Artificial Intelligence
+  - ML
+  - Training
+  - Batch
+  - GPU
+  - OpenAI-Compatible
+  tags_raw:
+  - AI
+  - ML
+  - Endpoints
+  - Training
+  - Batch
+  - GPU
+  - OpenAI Compatible
+  properties:
   - type: Documentation
-    url: https://docs.nvidia.com/dgx-cloud/lepton/
-  - type: Plans
-    url: plans/lepton-ai-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/lepton-ai-rate-limits.yml
-  - type: FinOps
-    url: finops/lepton-ai-finops.yml
+    url: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
+  - type: ProductPage
+    url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
+  - type: Examples
+    url: https://docs.nvidia.com/dgx-cloud/lepton/examples/
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/nvidia/
+  name: Nvidia
+  x-relationship: acquisition
+  x-generated-by: nvidia-family:2026-08-21
+  x-acquired: 2025
+- type: DomainSecurity
+  url: security/lepton-ai-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/leptonai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lepton-ai
+- type: Website
+  url: https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/
+- type: LegacyWebsite
+  url: https://www.lepton.ai/
+- type: Documentation
+  url: https://docs.nvidia.com/dgx-cloud/lepton/
+- type: Plans
+  url: plans/lepton-ai-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/lepton-ai-rate-limits.yml
+- type: FinOps
+  url: finops/lepton-ai-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-parent: nvidia
+x-relationship: acquisition
+x-acquired: 2025
