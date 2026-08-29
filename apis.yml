@@ -5,6 +5,17 @@ kind: company
 description: Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud Lepton. It
   is a fully managed AI platform that connects developers to global GPU compute across a federated network of cloud
   providers, with managed endpoints, dev sessions, distributed training, and batch processing.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
