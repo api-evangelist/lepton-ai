@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Inference
 - Cloud
 - GPU
@@ -59,7 +59,7 @@ apis:
   baseURL: https://dashboard.dgxc-lepton.nvidia.com
   tags:
   - Artificial Intelligence
-  - ML
+  - Machine-Learning
   - Training
   - Batch
   - GPU
