@@ -1,0 +1,43 @@
+# Front Door AI Index — lepton-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: lepton-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.nvidia.com
+  final_host: www.nvidia.com
+  ownership: shared
+  owner: nvidia
+  shares_host_with:
+  - cumulus-networks
+  - excelero-storage
+  - nvidia
+  - nvidia-nim
+  - runai
+  - swiftstack
+  - triton
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 389
+  density: null
+  words: 6016
+  tiers:
+    agentic: 51
+    core: 338
+    model: 0
+  ambiguous: 49
+  top_terms:
+    AI: 315
+    agentic: 32
+    intelligence: 27
+    agent: 20
+    artificial intelligence: 15
+    inference: 9
+    AI agent: 4
+    AI assistant: 4
+    machine learning: 3
+    LLMs: 2
+    conversational AI: 2
+    foundation model: 2
