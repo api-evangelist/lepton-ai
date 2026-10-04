@@ -29,9 +29,12 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
+x-docs-platform: swagger-ui
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - Cloud
 - GPU
@@ -45,6 +48,7 @@ tags_raw:
 - GPU
 - NVIDIA
 - DGX Cloud
+- Machine-Learning
 created: '2026-05-08'
 modified: '2026-08-21'
 specificationVersion: '0.23'
@@ -59,7 +63,7 @@ apis:
   baseURL: https://dashboard.dgxc-lepton.nvidia.com
   tags:
   - Artificial Intelligence
-  - Machine-Learning
+  - Machine Learning
   - Training
   - Batch
   - GPU
@@ -72,6 +76,7 @@ apis:
   - Batch
   - GPU
   - OpenAI Compatible
+  - Machine-Learning
   properties:
   - type: Documentation
     url: https://docs.nvidia.com/dgx-cloud/lepton/get-started/
